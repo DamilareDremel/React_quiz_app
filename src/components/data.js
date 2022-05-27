@@ -1,77 +1,296 @@
 const data = [
     {
         id : 1,
-        question : "Rolex is a company that specializes in what type of product?",
+        question : "One of this is a movie production company",
         answer : [
         {
-            text : "phone",
+            text : "BC",
             correct : false
         },
 
         {
-            text : "watches",
+            text : "DC",
             correct : true
         },
         {
-            text : "food",
+            text : "BBC",
         correct : false
         },
-        {text : "cosmetics",
+        {text : "EA",
         correct : false
         },
     ]
 },
 {id : 2,
-    question : "When did the website facebook launched?",
+    question : "Marvel is an industry based on",
     answer : [
-        {text : "2004",
+        {text : "CARS",
+        correct : false
+        },
+        {text : "FOOD",
+        correct : false
+        },
+        {text : "MACHINES",
+        correct : false
+        },
+        {text : "MOVIES",
         correct : true
-        },
-        {text : "2005",
-        correct : false
-        },
-        {text : "2006",
-        correct : false
-        },
-        {text : "2007",
-        correct : false
         },
     ]
 },
 {id : 3,
-    question : "Which is the best software company in Nigeria?",
+    question : "Nigeria English movies are best known as",
     answer : [
-        {text : "Facebook",
+        {text : "NOLLYWOOD",
         correct : false
         },
-        {text : "NCA",
+        {text : "HOLLYWOOD",
         correct : false
         },
-        {text : "Ogtech Network's Ltd",
+        {text : "BOLLYWOOD",
+        correct : false
+        },
+        {text : "AFRINOLLY",
         correct : true
-        },
-        {text : "Soft space Ltd",
-        correct : false
         },
     ]
 },
 {id : 4,
-    question : "Who played the character of Harry Potter in movie?",
+    question : "Who played the role of YINKA ADEMOLA in the popular 2022 BLOOD SISTERS Nollywood movie",
     answer : [
-        {text : "Gabriel Godspower",
+        {text : "GABRIEL AFOLAYAN",
         correct : false
         },
-        {text : "Damilare Fagbenro",
+        {text : "KEHINDE BANKOLE",
+        correct : true
+        },
+        {text : "NANCY ISIME",
         correct : false
         },
-        {text : "Denzel Washington",
+        {text : "INI DIMA-OKOJIE",
         correct : false
         },
-        {text : "Daniel Red Cliff",
+    ]
+},
+    {id : 5,
+    question : "One of these is the major character in the popular movie SALT",
+    answer : [		
+        {text : "NATALIE PORTMAN",
+        correct : false
+        },
+        {text : "ANGELINA JOLIE",
+        correct : true
+        },
+        {text : "TARAJI P. HENSON",
+        correct : false
+        },
+        {text : "REGINA HALL",
+        correct : false
+        },
+    ]
+},
+    {id : 6,
+    question : "EXTRACTION 2020 popular movie was produced by one of these",
+    answer : [	
+        {text : "CHRIS HEMSWORTH",
+        correct : true
+        },
+        {text : "BRUCE WILLIS",
+        correct : false
+        },
+        {text : "RYAN REYNOLDS",
+        correct : false
+        },
+        {text : "CHRIS PRATT",
+        correct : false
+        },
+    ]
+},
+    {id : 7,
+    question : "Who was the voice-over for the character of SONIC in Sonic the Hedgehog movie",
+    answer : [
+        {text : "BEN SCHWARTZ",
+        correct : true
+        },
+        {text : "JAMES MARSDEN",
+        correct : false
+        },
+        {text : "ADAM PALLEY",
+        correct : false
+        },
+        {text : "IDRIS ELBA",
+        correct : false
+        },
+    ]
+},
+    {id : 8,
+    question : "Who was the voice-over for the character of KNUCKLES in Sonic the Hedgehog movie",
+    answer : [
+        {text : "BEN SCHWARTZ",
+        correct : false
+        },
+        {text : "JAMES MARSDEN",
+        correct : false
+        },
+        {text : "ADAM PALLEY",
+        correct : false
+        },
+        {text : "IDRIS ELBA",
         correct : true
         },
     ]
 },
-]
-
+    {id : 9,
+    question : "One of these is a character in CHIP 'N DALE RESCUE RANGERS 2022 walt disney movie",
+    answer : [
+        {text : "NATALIE PORTMAN",
+        correct : false
+        },
+        {text : "ANGELINA JOLIE",
+        correct : false
+        },
+        {text : "KIKI LAYNE",
+        correct : true
+        },
+        {text : "REGINA HALL",
+        correct : false
+        },
+    ]
+},
+    {id : 10,
+    question : "The movie KISSING BOOTH 2 was released in what year",
+    answer : [
+        {text : "2018",
+        correct : false
+        },
+        {text : "2019",
+        correct : false
+        },
+        {text : "2020",
+        correct : true
+        },
+        {text : "2021",
+        correct : false
+        },
+    ]
+},
+    {id : 11,
+    question : "Then the succeeding KISSING BOOTH 3 movie was released in",
+    answer : [
+        {text : "2018",
+        correct : false
+        },
+        {text : "2019",
+        correct : false
+        },
+        {text : "2020",
+        correct : false
+        },
+        {text : "2021",
+        correct : true
+        },
+    ]
+},
+    {id : 12,
+    question : "Rebel Wilson rose to fame in which popular movie",
+    answer : [	
+        {text : "BRIDESMAIDS",
+        correct : true
+        },
+        {text : "SMALL APARTMENTS",
+        correct : false
+        },
+        {text : "STRUCK BY LIGHTNING",
+        correct : false
+        },
+        {text : "PITCH PERFECT",
+        correct : false
+        },
+    ]
+},
+    {id : 13,
+    question : "Regina Hall an American Actress was born at",
+    answer : [
+        {text : "NEW YORK",
+        correct : false
+        },
+        {text : "CHICAGO",
+        correct : false
+        },
+        {text : "WASHINGTON D.C.",
+        correct : true
+        },
+        {text : "QUEENS",
+        correct : false
+        },
+    ]
+},
+    {id : 14,
+    question : "Marvel is an industry based on",
+    answer : [
+        {text : "CARS",
+        correct : false
+        },
+        {text : "FOOD",
+        correct : false
+        },
+        {text : "MACHINES",
+        correct : false
+        },
+        {text : "MOVIES",
+        correct : true
+        },
+    ]
+},
+    {id : 2,
+    question : "Marvel is an industry based on",
+    answer : [
+        {text : "CARS",
+        correct : false
+        },
+        {text : "FOOD",
+        correct : false
+        },
+        {text : "MACHINES",
+        correct : false
+        },
+        {text : "MOVIES",
+        correct : true
+        },
+    ]
+},
+    {id : 2,
+    question : "Marvel is an industry based on",
+    answer : [
+        {text : "CARS",
+        correct : false
+        },
+        {text : "FOOD",
+        correct : false
+        },
+        {text : "MACHINES",
+        correct : false
+        },
+        {text : "MOVIES",
+        correct : true
+        },
+    ]
+},
+    {id : 2,
+    question : "Marvel is an industry based on",
+    answer : [
+        {text : "CARS",
+        correct : false
+        },
+        {text : "FOOD",
+        correct : false
+        },
+        {text : "MACHINES",
+        correct : false
+        },
+        {text : "MOVIES",
+        correct : true
+        },
+    ]
+},
 export default data;
