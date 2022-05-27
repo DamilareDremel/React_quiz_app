@@ -292,5 +292,6 @@ const data = [
         correct : false
         },
     ]
-}
+},
+    ]
 export default data;
