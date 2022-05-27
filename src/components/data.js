@@ -226,70 +226,70 @@ const data = [
     ]
 },
     {id : 14,
-    question : "Marvel is an industry based on",
+    question : "One of these is an America Actor who became a GOVERNOR once in California",
     answer : [
-        {text : "CARS",
+        {text : "ARNOLD SCHWARZENEGGER",
+        correct : true
+        },
+        {text : "BRUCE WILLIS",
         correct : false
         },
-        {text : "FOOD",
+        {text : "DENZEL WASHINGTON",
         correct : false
         },
-        {text : "MACHINES",
+        {text : "SAMUEL L. JACKSON",
         correct : false
         },
-        {text : "MOVIES",
+    ]
+},
+    {id : 15,
+    question : "JOHN CENA played as what cast in the popular 2021 movie SUICIDE SQUAD",
+    answer : [
+        {text : "BLOODSPOT",
+        correct : false
+        },
+        {text : "BLACKGUARD",
+        correct : false
+        },
+        {text : "SAVANT",
+        correct : false
+        },
+        {text : "PEACEMAKER",
         correct : true
         },
     ]
 },
-    {id : 2,
-    question : "Marvel is an industry based on",
-    answer : [
-        {text : "CARS",
-        correct : false
-        },
-        {text : "FOOD",
-        correct : false
-        },
-        {text : "MACHINES",
-        correct : false
-        },
-        {text : "MOVIES",
+    {id : 16,
+    question : "HARLEY QUINN character was played by who in the popular 2021 movie SUICIDE SQUAD",
+    answer : [	
+        {text : "MARGOT ROBBIE",
         correct : true
+        },
+        {text : "NATALIE PORTMAN",
+        correct : false
+        },
+        {text : "JENNIFER HOLLAND",
+        correct : false
+        },
+        {text : "ALICE BRAGA",
+        correct : false
         },
     ]
 },
-    {id : 2,
-    question : "Marvel is an industry based on",
+    {id : 17,
+    question : "C.E.O of DremelEraBlog is",
     answer : [
-        {text : "CARS",
+        {text : "DAMINI OGULU",
         correct : false
         },
-        {text : "FOOD",
+        {text : "ADEDAYO BALOGUN",
         correct : false
         },
-        {text : "MACHINES",
-        correct : false
-        },
-        {text : "MOVIES",
+        {text : "DAMILARE MARTINS",
         correct : true
         },
-    ]
-},
-    {id : 2,
-    question : "Marvel is an industry based on",
-    answer : [
-        {text : "CARS",
+        {text : "OLAMIDE ADEDEJI",
         correct : false
-        },
-        {text : "FOOD",
-        correct : false
-        },
-        {text : "MACHINES",
-        correct : false
-        },
-        {text : "MOVIES",
-        correct : true
         },
     ]
 },
