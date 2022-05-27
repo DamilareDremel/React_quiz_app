@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 .top {
-    height: 50%;
+    height: 30%;
     position: relative;
 }
 .timer {
@@ -32,7 +32,7 @@
     left: 100px;
 }
 .bottom {
-    height: 50%;
+    height: 70%;
 }
 
 /* Pyramid */
