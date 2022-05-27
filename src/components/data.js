@@ -42,7 +42,7 @@ const data = [
     question : "Nigeria English movies are best known as",
     answer : [
         {text : "NOLLYWOOD",
-        correct : false
+        correct : true
         },
         {text : "HOLLYWOOD",
         correct : false
@@ -51,7 +51,7 @@ const data = [
         correct : false
         },
         {text : "AFRINOLLY",
-        correct : true
+        correct : false
         },
     ]
 },
